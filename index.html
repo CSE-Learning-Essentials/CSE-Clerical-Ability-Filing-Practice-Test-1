@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Civil Service Exam Practice Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3, h4 {
+      margin-bottom: 10px;
+    }
+    .question {
+      margin-bottom: 25px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+    #results {
+      margin-top: 30px;
+      font-weight: bold;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    label.correct {
+      color: green;
+      font-weight: bold;
+    }
+    label.incorrect {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CIVIL SERVICE EXAM PRACTICE TEST</h1>
+    <p><strong>CREATED BY:</strong> CSE LEARNING ESSENTIALS</p>
+    <h2>SECTION 2: CLERICAL ABILITY</h2>
+    <h3>PART 2: FILING</h3>
+    <h4>10-ITEM TEST</h4>
+    <p><strong>PASSING SCORE:</strong> 8</p>
+
+    <form id="examForm">
+      <p><strong>Direction:</strong> Arrange the following names in alphabetical order for proper filing.</p>
+
+      <div class="question" id="q1">
+        <p><strong>1)</strong></p>
+        <ul>
+          <li>a. Mark C. David</li>
+          <li>b. Elen P. Rodriguez</li>
+          <li>c. Max A. Aquino</li>
+          <li>d. Juan D. Castro</li>
+        </ul>
+        <label><input type="radio" name="q1" value="A"> A) c-d-a-b</label><br>
+        <label><input type="radio" name="q1" value="B"> B) c-d-b-a</label><br>
+        <label><input type="radio" name="q1" value="C"> C) c-a-d-b</label><br>
+        <label><input type="radio" name="q1" value="D"> D) b-d-a-c</label><br>
+        <label><input type="radio" name="q1" value="E"> E) b-c-d-a</label>
+      </div>
+
+      <div class="question" id="q2">
+        <p><strong>2)</strong></p>
+        <ul>
+          <li>a. Anne T. Garcia</li>
+          <li>b. Leo M. Santos</li>
+          <li>c. Carla B. Ortega</li>
+          <li>d. Bryan K. Navarro</li>
+        </ul>
+        <label><input type="radio" name="q2" value="A"> A) c-d-a-b</label><br>
+        <label><input type="radio" name="q2" value="B"> B) a-d-c-b</label><br>
+        <label><input type="radio" name="q2" value="C"> C) d-c-a-b</label><br>
+        <label><input type="radio" name="q2" value="D"> D) c-a-d-b</label><br>
+        <label><input type="radio" name="q2" value="E"> E) a-c-d-b</label>
+      </div>
+
+      <div class="question" id="q3">
+        <p><strong>3)</strong></p>
+        <ul>
+          <li>a. Diana V. Lim</li>
+          <li>b. Hector T. Alonzo</li>
+          <li>c. Paula M. Reyes</li>
+          <li>d. Marco G. Cruz</li>
+        </ul>
+        <label><input type="radio" name="q3" value="A"> A) b-d-a-c</label><br>
+        <label><input type="radio" name="q3" value="B"> B) b-d-c-a</label><br>
+        <label><input type="radio" name="q3" value="C"> C) b-a-d-c</label><br>
+        <label><input type="radio" name="q3" value="D"> D) b-d-a-c</label><br>
+        <label><input type="radio" name="q3" value="E"> E) d-b-a-c</label>
+      </div>
+
+      <div class="question" id="q4">
+        <p><strong>4)</strong></p>
+        <ul>
+          <li>a. Mr. Vincent Cruz</li>
+          <li>b. Lorna M. Aquino</li>
+          <li>c. Gerald S. Torres</li>
+          <li>d. Bianca J. Navarro</li>
+        </ul>
+        <label><input type="radio" name="q4" value="A"> A) a-b-c-d</label><br>
+        <label><input type="radio" name="q4" value="B"> B) d-c-b-a</label><br>
+        <label><input type="radio" name="q4" value="C"> C) b-d-a-c</label><br>
+        <label><input type="radio" name="q4" value="D"> D) b-a-d-c</label><br>
+        <label><input type="radio" name="q4" value="E"> E) a-b-d-c</label>
+      </div>
+
+      <div class="question" id="q5">
+        <p><strong>5)</strong></p>
+        <ul>
+          <li>a. Francis E. Villanueva</li>
+          <li>b. Andrea K. Santos</li>
+          <li>c. Liza D. Ocampo</li>
+          <li>d. Roberto H. Ignacio</li>
+        </ul>
+        <label><input type="radio" name="q5" value="A"> A) d-c-b-a</label><br>
+        <label><input type="radio" name="q5" value="B"> B) d-b-c-a</label><br>
+        <label><input type="radio" name="q5" value="C"> C) c-d-b-a</label><br>
+        <label><input type="radio" name="q5" value="D"> D) d-c-a-b</label><br>
+        <label><input type="radio" name="q5" value="E"> E) b-d-c-a</label>
+      </div>
+
+      <div class="question" id="q6">
+        <p><strong>6)</strong></p>
+        <ul>
+          <li>a. Dr. Elias A. Gomez</li>
+          <li>b. Hannah T. Rivera</li>
+          <li>c. Michael Q. Santos</li>
+          <li>d. Brian U. Alvarez</li>
+        </ul>
+        <label><input type="radio" name="q6" value="A"> A) d-c-b-a</label><br>
+        <label><input type="radio" name="q6" value="B"> B) d-b-a-c</label><br>
+        <label><input type="radio" name="q6" value="C"> C) d-a-c-b</label><br>
+        <label><input type="radio" name="q6" value="D"> D) a-d-b-c</label><br>
+        <label><input type="radio" name="q6" value="E"> E) d-a-b-c</label>
+      </div>
+
+      <div class="question" id="q7">
+        <p><strong>7)</strong></p>
+        <ul>
+          <li>a. Dr. Felicia M. Cruz</li>
+          <li>b. Samuel R. Tan</li>
+          <li>c. Olivia J. Morales</li>
+          <li>d. Mr. Daniel P. Reyes</li>
+        </ul>
+        <label><input type="radio" name="q7" value="A"> A) d-b-a-c</label><br>
+        <label><input type="radio" name="q7" value="B"> B) a-d-c-b</label><br>
+        <label><input type="radio" name="q7" value="C"> C) a-c-d-b</label><br>
+        <label><input type="radio" name="q7" value="D"> D) d-c-b-a</label><br>
+        <label><input type="radio" name="q7" value="E"> E) c-b-a-d</label>
+      </div>
+
+      <div class="question" id="q8">
+        <p><strong>8)</strong></p>
+        <ul>
+          <li>a. Ms. Julia F. Navarro</li>
+          <li>b. Carlos D. Mendez</li>
+          <li>c. Thomas A. Villanueva</li>
+          <li>d. Sarah L. Bautista</li>
+        </ul>
+        <label><input type="radio" name="q8" value="A"> A) d-b-c-a</label><br>
+        <label><input type="radio" name="q8" value="B"> B) d-b-a-c</label><br>
+        <label><input type="radio" name="q8" value="C"> C) d-c-b-a</label><br>
+        <label><input type="radio" name="q8" value="D"> D) b-d-a-c</label><br>
+        <label><input type="radio" name="q8" value="E"> E) b-d-c-a</label>
+      </div>
+
+      <div class="question" id="q9">
+        <p><strong>9)</strong></p>
+        <ul>
+          <li>a. Dr. Peter L. Santos</li>
+          <li>b. Isabel Cruz-Zamora</li>
+          <li>c. Ramon T. Delgado</li>
+          <li>d. Angela F. Ramos</li>
+        </ul>
+        <label><input type="radio" name="q9" value="A"> A) c-d-a-b</label><br>
+        <label><input type="radio" name="q9" value="B"> B) c-a-b-d</label><br>
+        <label><input type="radio" name="q9" value="C"> C) b-c-d-a</label><br>
+        <label><input type="radio" name="q9" value="D"> D) d-b-c-a</label><br>
+        <label><input type="radio" name="q9" value="E"> E) d-c-b-a</label>
+      </div>
+
+      <div class="question" id="q10">
+        <p><strong>10)</strong></p>
+        <ul>
+          <li>a. Jonathan Lopez</li>
+          <li>b. Maria Garcia</li>
+          <li>c. Eric Santos</li>
+          <li>d. Ana Morales</li>
+        </ul>
+        <label><input type="radio" name="q10" value="A"> A) b-d-a-c</label><br>
+        <label><input type="radio" name="q10" value="B"> B) b-d-c-a</label><br>
+        <label><input type="radio" name="q10" value="C"> C) b-a-d-c</label><br>
+        <label><input type="radio" name="q10" value="D"> D) a-b-d-c</label><br>
+        <label><input type="radio" name="q10" value="E"> E) d-c-a-b</label>
+      </div>
+
+      <button type="button" onclick="checkAnswers()">Submit</button>
+    </form>
+
+    <div id="results"></div>
+  </div>
+
+<div class="social-link">
+  <p>Follow us on <a href="https://www.facebook.com/cselearningessentials/" target="_blank" rel="noopener noreferrer">Facebook</a> for more updates!</p>
+  <p>Subscribe to our YouTube Channel <a href="https://www.youtube.com/@cselearningessentialsph2023" target="_blank" rel="noopener noreferrer">here</a> for more content!</p>
+</div>
+
+<div class="advertisement">
+  <img src="images/advertisement.png" alt="Civil Service E-book" style="width: 100%; max-width: 400px; display: block; margin: 0 auto 15px auto; border-radius: 5px;">
+  <p>Avail our latest Civil Service Exam Reviewer E-books (E-book 1: Professional Level and E-book 2: Sub-professional Level. Direct message us for more details!</p>
+</div>
+
+  <script>
+    function checkAnswers() {
+      const correctAnswers = {
+        q1: "A", q2: "B", q3: "A", q4: "D", q5: "A",
+        q6: "E", q7: "C", q8: "B", q9: "C", q10: "C"
+      };
+      let score = 0;
+      let resultsHTML = "";
+
+      // Clear any previous styles
+      for (let i = 1; i <= 10; i++) {
+        const questionDiv = document.getElementById("q" + i);
+        const labels = questionDiv.querySelectorAll("label");
+        labels.forEach(label => {
+          label.classList.remove("correct", "incorrect");
+        });
+      }
+
+      for (let i = 1; i <= 10; i++) {
+        const questionName = "q" + i;
+        const questionDiv = document.getElementById(questionName);
+        const selected = document.querySelector(`input[name="${questionName}"]:checked`);
+        const userAnswer = selected ? selected.value : null;
+        const correctAnswer = correctAnswers[questionName];
+
+        if (userAnswer === correctAnswer) {
+          score++;
+          resultsHTML += `<div class="correct">Question ${i}: Correct (${userAnswer})</div>`;
+        } else {
+          resultsHTML += `<div class="incorrect">Question ${i}: Incorrect (${userAnswer || "No Answer"}) | Correct Answer: ${correctAnswer}</div>`;
+        }
+
+        // Highlight correct and incorrect answers
+        const options = questionDiv.querySelectorAll("input");
+        options.forEach(opt => {
+          const label = opt.parentElement;
+          if (opt.value === correctAnswer) {
+            label.classList.add("correct");
+          }
+          if (opt.checked && opt.value !== correctAnswer) {
+            label.classList.add("incorrect");
+          }
+        });
+      }
+
+      resultsHTML += `<br><strong>Your Score: ${score}/10</strong><br>`;
+      resultsHTML += score >= 8
+        ? "<span style='color:green;'>You Passed!</span>"
+        : "<span style='color:red;'>You Did Not Pass.</span>";
+
+      document.getElementById("results").innerHTML = resultsHTML;
+
+      // Scroll to results
+      document.getElementById("results").scrollIntoView({behavior: "smooth"});
+    }
+  </script>
+</body>
+</html>
